@@ -138,10 +138,24 @@
     -->
 
     <textarea id="code">#include <stdio.h>
+#include <math.h>
 
-int main(void) {
-    printf("Hola, món!\n");
-    printf("El programa C s'ha executat correctament!\n");
+int main() {
+
+    float m = 75;
+    float F = 200;
+    float angulo = 85;
+    float d = 122;
+    float Ff = 15;
+
+   
+    float WF = F * cos(angulo * M_PI / 180) * d;
+    float WFf = -Ff * d;
+
+    
+    printf("Treball de la força: %.2f J\n", WF);
+    printf("Treball de la força de friccio: %.2f J\n", WFf);
+
     return 0;
 }</textarea>
 
